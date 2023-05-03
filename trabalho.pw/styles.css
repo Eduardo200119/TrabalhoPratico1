@@ -1,0 +1,220 @@
+/* Estilos para a página de hobbies */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: red;
+}
+.hobby-section {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: orange;
+  grid-template-rows: auto;
+}
+
+.hobby-section img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+
+}
+  h1.page-Enduro, h1.page-moto, h1.page-formula {
+    color: red;
+  }
+  
+  
+  .gallery1 img,
+  .gallery2 img,
+  .gallery3 img {
+    width: 200px;
+    margin: 100px;
+  }
+  
+  p {
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos personalizados */
+.animated {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+@keyframes animated{
+from{
+  opacity: 0;
+}
+to{
+  opacity: 1;
+}
+
+}
+
+
+/*Animação de fade-in */
+.fade-in {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animação de zoom-in */
+.zoom-in {
+  animation-name: zoomIn;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Animação de slide-in da esquerda  */
+.slide-in-left {
+  animation-name: slideInLeft;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/*Enduro*/
+.page-Enduro {
+  font-size: 32px;
+}
+
+.gallery1 {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 20px;
+  padding: 0;
+  margin-top: 40px;
+  background-color: orange;
+}
+
+.gallery1 li {
+  text-align: center;
+  font-size: 20px;
+}
+
+.gallery1 img {
+  max-width: 300px;
+  max-height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+/*moto gp*/
+
+.page-moto{
+font-size: 32px;
+
+}
+.gallery2 {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 20px;
+  padding: 0;
+  margin-top: 40px;
+  background-color: orange;
+}
+
+.gallery2 li {
+  text-align: center;
+  font-size: 20px;
+}
+
+.gallery2 img {
+  max-width: 300px;
+  max-height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+/*Formula1*/
+.page-formula {
+  font-size: 32px;
+}
+.gallery3 {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin-top: 40px;
+  background-color: orange;
+}
+
+.gallery3 li {
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.gallery3 img {
+  max-width: 300px;
+  max-height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*Box de todos as paginas*/
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
